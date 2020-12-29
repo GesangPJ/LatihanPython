@@ -29,4 +29,18 @@ komplex
 
 #Modifikasi Dictionary
 
+#Mengubah ke Kapital
+komplex['kunci1'][2].upper()
 
+#menambah kunci. Algoritma : []= *Cara ini juga bisa digunakan untuk merubah nilai kunci
+komplex['kunci2']=100000000
+komplex 
+
+#mengambil nama kunci. Algoritma : .keys()
+komplex.keys()
+
+#mengambil isi nilai. Algoritma : .values()
+komplex.values()
+
+#pairing nilai
+komplex.items()
